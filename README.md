@@ -19,8 +19,8 @@ function unchi() {
 - fuga
 
 1. iti
-  1. one
-  2. two
-  3. three
+    1. one
+    2. two
+    3. three
 2. ni
 3. san
