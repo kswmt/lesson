@@ -1,0 +1,75 @@
+#unchi {
+    width: 800px;
+    height: 450px;
+    background-image: url("./room0.png");
+    border: 20px solid #ff0000;
+    margin: 0 auto 0 auto;
+
+    position: relative;
+}
+
+.move {
+    width: 50px;
+    height: 450px;
+    background-color: #00000077;
+}
+
+#up-move {
+    width: 600px;
+    height: 45px; 
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    visibility: visible;
+    }
+
+#down-move{
+    width: 600px;
+    height: 45px; 
+    position: absolute;
+    top: 405px;
+    left: 100px;
+    visibility: hidden;
+    }
+    
+#left-move{
+    visibility: visible;
+}
+
+#right-move{
+    position: absolute;
+    top: 0px;
+    left: 750px;
+    visibility: visible;
+}
+
+.move:hover {
+    background-color: #000000b7;
+}
+
+.room-button {
+    width: 40px;
+    height: 40px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#form {
+    position: absolute;
+    top: 480px;
+    left: 350px;
+}
+
+#button {
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    top: 478px;
+    left: 415px;
+
+}
